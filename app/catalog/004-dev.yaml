@@ -1,0 +1,225 @@
+# Software engineering logos, from the local theSVG clone: languages, frameworks,
+# infrastructure, data stores, editors, CI and observability.
+# Curated subset: only marks that do not spell the answer out. Wordmark logos
+# (Babel, Cypress, Ember, Julia, SQLite, Helm, Splunk, Vim, PHP, ...) are left
+# out because they give the answer away, and so is Go, whose mark is the word.
+# 30 of the 79 are drawn at random per game. Well-known consumer brands live in
+# the Tech category; an image can only be listed in one category.
+id: dev
+title: Dev
+description: Software engineering logos, 30 at random per game
+sample: 30
+logos:
+  # Languages
+  - file: python.svg
+    answer: Python
+  - file: java.png
+    answer: Java
+  - file: kotlin.png
+    answer: Kotlin
+  - file: rust.svg
+    answer: Rust
+  - file: ruby.svg
+    answer: Ruby
+  - file: swift.svg
+    answer: Swift
+  - file: scala.svg
+    answer: Scala
+  - file: javascript.svg
+    answer: JavaScript
+    aliases:
+      - JS
+  - file: typescript.svg
+    answer: TypeScript
+    aliases:
+      - TS
+  - file: haskell.svg
+    answer: Haskell
+  - file: elixir.svg
+    answer: Elixir
+  # Frameworks and libraries
+  - file: react.svg
+    answer: React
+    aliases:
+      - React.js
+  - file: vue.svg
+    answer: Vue
+    aliases:
+      - Vue.js
+  - file: angular.svg
+    answer: Angular
+  - file: svelte.svg
+    answer: Svelte
+  - file: nextjs.svg
+    answer: Next.js
+    aliases:
+      - Next
+  - file: django.svg
+    answer: Django
+  - file: flask.svg
+    answer: Flask
+  - file: fastapi.svg
+    answer: FastAPI
+  - file: spring.svg
+    answer: Spring
+  - file: laravel.svg
+    answer: Laravel
+  # Infrastructure and cloud
+  - file: docker.png
+    answer: Docker
+  - file: kubernetes.png
+    answer: Kubernetes
+    aliases:
+      - K8s
+  - file: nginx.svg
+    answer: NGINX
+  - file: terraform.svg
+    answer: Terraform
+  - file: ansible.svg
+    answer: Ansible
+  - file: azure.svg
+    answer: Azure
+    aliases:
+      - Microsoft Azure
+  - file: google-cloud.svg
+    answer: Google Cloud
+    aliases:
+      - GCP
+  - file: cloudflare.svg
+    answer: Cloudflare
+  - file: vercel.svg
+    answer: Vercel
+  - file: digitalocean.svg
+    answer: DigitalOcean
+  - file: heroku.svg
+    answer: Heroku
+  - file: netlify.svg
+    answer: Netlify
+  - file: supabase.svg
+    answer: Supabase
+  - file: firebase.svg
+    answer: Firebase
+    aliases:
+      - Google Firebase
+  # Data stores and messaging
+  - file: postgresql.png
+    answer: PostgreSQL
+    aliases:
+      - Postgres
+  - file: mysql.svg
+    answer: MySQL
+  - file: mongodb.svg
+    answer: MongoDB
+    aliases:
+      - Mongo
+  - file: elasticsearch.svg
+    answer: Elasticsearch
+    aliases:
+      - Elastic
+  - file: kafka.png
+    answer: Kafka
+    aliases:
+      - Apache Kafka
+  - file: redis.svg
+    answer: Redis
+  # Build tools and package managers
+  - file: gradle.png
+    answer: Gradle
+  - file: npm.svg
+    answer: npm
+  - file: webpack.svg
+    answer: Webpack
+  - file: vite.svg
+    answer: Vite
+  - file: homebrew.svg
+    answer: Homebrew
+    aliases:
+      - Brew
+  # Editors and IDEs
+  - file: visual-studio-code.svg
+    answer: Visual Studio Code
+    aliases:
+      - VSCode
+  - file: neovim.svg
+    answer: Neovim
+    aliases:
+      - nvim
+  - file: intellij-idea.svg
+    answer: IntelliJ IDEA
+    aliases:
+      - IntelliJ
+  - file: bluej.png
+    answer: BlueJ
+  # Version control and CI
+  - file: github.png
+    answer: GitHub
+  - file: gitlab.svg
+    answer: GitLab
+  - file: github-actions.svg
+    answer: GitHub Actions
+  - file: jenkins.png
+    answer: Jenkins
+  - file: circleci.svg
+    answer: CircleCI
+  # Observability
+  - file: prometheus.svg
+    answer: Prometheus
+  - file: grafana.svg
+    answer: Grafana
+  - file: sentry.svg
+    answer: Sentry
+  - file: datadog.svg
+    answer: Datadog
+  - file: new-relic.svg
+    answer: New Relic
+  # Operating systems and platforms
+  - file: linux.svg
+    answer: Linux
+  - file: android.svg
+    answer: Android
+  - file: unity.svg
+    answer: Unity
+    aliases:
+      - Unity3D
+  - file: godot.svg
+    answer: Godot
+    aliases:
+      - Godot Engine
+  - file: unreal-engine.svg
+    answer: Unreal Engine
+    aliases:
+      - Unreal
+  - file: flutter.svg
+    answer: Flutter
+  # Applications and project tools
+  - file: jira.svg
+    answer: Jira
+    aliases:
+      - Atlassian Jira
+  - file: bitbucket.svg
+    answer: Bitbucket
+  - file: linear.svg
+    answer: Linear
+  - file: trello.svg
+    answer: Trello
+  - file: obsidian.svg
+    answer: Obsidian
+  - file: dbeaver.svg
+    answer: DBeaver
+  - file: iterm2.svg
+    answer: iTerm2
+    aliases:
+      - iTerm
+  - file: sourcetree.svg
+    answer: Sourcetree
+  - file: xcode.svg
+    answer: Xcode
+  # Workflow tools
+  - file: slack.png
+    answer: Slack
+  - file: figma.svg
+    answer: Figma
+  - file: postman.svg
+    answer: Postman
+  - file: claude.png
+    answer: Claude

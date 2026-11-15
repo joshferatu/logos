@@ -1,80 +1,205 @@
+# Well-known technology companies and consumer products, from the local theSVG clone.
+# Curated subset: brands most people recognise, and only marks that do not spell
+# the answer out. Wordmark logos (Amazon, Intel, Samsung, Oracle, IBM, Dell, HP,
+# eBay, Nintendo, Epic Games, DJI, Roku, Sonos, Kraken, ...) are left out because
+# they give the answer away, and a few marks that are just the name in letters
+# (X, previously Twitter) are out for the same reason. 30 of the 78 are drawn at
+# random per game. Software engineering tools live in the Dev category.
 id: tech
 title: Tech
-description: Tools, brands and products from the tech world
+description: Well-known tech brands and products, 30 at random per game
+sample: 30
 logos:
-  - file: java.png
-    answer: Java
-  - file: gradle.png
-    answer: Gradle
-  - file: docker.png
-    answer: Docker
-  - file: kubernetes.png
-    answer: Kubernetes
-    aliases:
-      - K8s
-  - file: kafka.png
-    answer: Kafka
-    aliases:
-      - Apache Kafka
-  - file: kotlin.png
-    answer: Kotlin
-  - file: postgresql.png
-    answer: PostgreSQL
-    aliases:
-      - Postgres
-  - file: claude.png
-    answer: Claude
+  # Search and the web
   - file: google.png
     answer: Google
   - file: gmail.png
     answer: Gmail
+  - file: google-drive.svg
+    answer: Google Drive
+    aliases:
+      - Drive
+  - file: google-maps.svg
+    answer: Google Maps
+    aliases:
+      - Maps
+  - file: google-play.svg
+    answer: Google Play
+    aliases:
+      - Play Store
+  - file: wikipedia.svg
+    answer: Wikipedia
+  - file: firefox.svg
+    answer: Firefox
+  - file: opera.svg
+    answer: Opera
+  - file: safari.svg
+    answer: Safari
+  - file: brave.svg
+    answer: Brave
+  # Social
+  - file: facebook.svg
+    answer: Facebook
+  - file: instagram.svg
+    answer: Instagram
+  - file: whatsapp.svg
+    answer: WhatsApp
+  - file: twitter.svg
+    answer: Twitter
+    aliases:
+      - X
+  - file: reddit.svg
+    answer: Reddit
+  - file: linkedin.svg
+    answer: LinkedIn
+  - file: pinterest.svg
+    answer: Pinterest
+  - file: snapchat.svg
+    answer: Snapchat
+    aliases:
+      - Snap
+  - file: tiktok.svg
+    answer: TikTok
+  - file: youtube.svg
+    answer: YouTube
+    aliases:
+      - YT
+  - file: twitch.svg
+    answer: Twitch
+  - file: discord.svg
+    answer: Discord
   - file: telegram.png
     answer: Telegram
+  - file: signal.svg
+    answer: Signal
+  - file: bluesky.svg
+    answer: Bluesky
+  - file: mastodon.svg
+    answer: Mastodon
+  - file: threads.svg
+    answer: Threads
+  - file: tumblr.svg
+    answer: Tumblr
+  - file: quora.svg
+    answer: Quora
+  - file: wechat.svg
+    answer: WeChat
+    aliases:
+      - Weixin
+  # Hardware and software companies
+  - file: apple.svg
+    answer: Apple
+  - file: microsoft.svg
+    answer: Microsoft
+  - file: meta.svg
+    answer: Meta
+  - file: nvidia.svg
+    answer: NVIDIA
+  - file: adobe.svg
+    answer: Adobe
+  - file: xiaomi.svg
+    answer: Xiaomi
+  - file: huawei.svg
+    answer: Huawei
+  # Entertainment and design
+  - file: netflix.svg
+    answer: Netflix
+  - file: spotify.svg
+    answer: Spotify
+  - file: soundcloud.svg
+    answer: SoundCloud
+  - file: steam.svg
+    answer: Steam
+  - file: playstation.svg
+    answer: PlayStation
+    aliases:
+      - PS
+  - file: xbox.svg
+    answer: Xbox
+  - file: duolingo.svg
+    answer: Duolingo
+  - file: canva.svg
+    answer: Canva
+  - file: miro.svg
+    answer: Miro
+  - file: wordpress.svg
+    answer: WordPress
+  - file: vimeo.svg
+    answer: Vimeo
+  - file: deezer.svg
+    answer: Deezer
+  - file: razer.svg
+    answer: Razer
+  - file: riot-games.svg
+    answer: Riot Games
+    aliases:
+      - Riot
+  - file: ubisoft.svg
+    answer: Ubisoft
+  # Shopping, transport and services
+  - file: paypal.svg
+    answer: PayPal
+  - file: shopify.svg
+    answer: Shopify
+  - file: dropbox.svg
+    answer: Dropbox
+  - file: airbnb.svg
+    answer: Airbnb
+  - file: zoom.svg
+    answer: Zoom
+  - file: aliexpress.svg
+    answer: AliExpress
+  - file: alibaba.svg
+    answer: Alibaba
+    aliases:
+      - Alibaba Group
+  - file: etsy.svg
+    answer: Etsy
+  - file: tripadvisor.svg
+    answer: Tripadvisor
+  - file: notion.svg
+    answer: Notion
+  - file: winrar.png
+    answer: WinRAR
+  - file: spacex.svg
+    answer: SpaceX
+  # Crypto
   - file: bitcoin.png
     answer: Bitcoin
     aliases:
       - BTC
-  - file: github.png
-    answer: GitHub
-  - file: jenkins.png
-    answer: Jenkins
+  - file: ethereum.svg
+    answer: Ethereum
+    aliases:
+      - ETH
+  - file: coinbase.svg
+    answer: Coinbase
+  - file: binance.svg
+    answer: Binance
+  - file: dogecoin.svg
+    answer: Dogecoin
+    aliases:
+      - DOGE
+  - file: metamask.svg
+    answer: MetaMask
+  - file: robinhood.svg
+    answer: Robinhood
+  - file: revolut.svg
+    answer: Revolut
+  - file: square.svg
+    answer: Square
+  - file: klarna.svg
+    answer: Klarna
+  # AI
   - file: chatgpt.png
     answer: ChatGPT
     aliases:
       - OpenAI
-  - file: slack.png
-    answer: Slack
-  - file: bluej.png
-    answer: BlueJ
-  - file: winrar.png
-    answer: WinRAR
-  - file: vercel.svg
-    answer: Vercel
-  - file: react.svg
-    answer: React
+  - file: mistral.svg
+    answer: Mistral
     aliases:
-      - React.js
-  - file: python.svg
-    answer: Python
-  - file: rust.svg
-    answer: Rust
-  - file: go.svg
-    answer: Go
-    aliases:
-      - Golang
-  - file: vue.svg
-    answer: Vue
-    aliases:
-      - Vue.js
-  - file: figma.svg
-    answer: Figma
-  - file: notion.svg
-    answer: Notion
-  - file: stripe.svg
-    answer: Stripe
-  - file: redis.svg
-    answer: Redis
-  - file: linux.svg
-    answer: Linux
-  - file: gitlab.svg
-    answer: GitLab
+      - Mistral AI
+  - file: perplexity.svg
+    answer: Perplexity
+  - file: anthropic.svg
+    answer: Anthropic
