@@ -395,8 +395,16 @@ def test_bundled_catalog_is_valid():
     from app.main import CATALOG_DIR
 
     categories = game.load_catalog(CATALOG_DIR)
-    assert [category.id for category in categories] == ["tech", "motor", "flags", "adult"]
+    assert [category.id for category in categories] == ["tech", "motor", "flags", "dev", "adult"]
     assert all(category.items for category in categories)
+
+
+@pytest.mark.parametrize("category_id", ["tech", "dev"])
+def test_bundled_logo_categories_play_a_sample(category_id):
+    from app.main import CATALOG_DIR
+
+    category = {c.id: c for c in game.load_catalog(CATALOG_DIR)}[category_id]
+    assert category.sample == 30 and len(category.items) > category.sample
 
 
 def test_bundled_flags_category_plays_a_sample():
