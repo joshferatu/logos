@@ -141,6 +141,7 @@ logos:
     answer: Netherlands
     aliases:
       - Holland
+      - Holanda
       - Países Bajos
   - file: flag-nz.svg
     answer: New Zealand
@@ -181,7 +182,7 @@ logos:
     answer: Saudi Arabia
     aliases:
       - Arabia Saudita
-      - KSA
+      - Arabia Saudí
   - file: flag-sg.svg
     answer: Singapore
     aliases:
