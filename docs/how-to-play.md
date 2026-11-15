@@ -4,7 +4,7 @@ Logos is a logo-guessing game. You are shown an image that belongs to a company,
 
 ## Rules
 
-1. Press **Play** and choose a game: **Classic** (tech logos), **Motor** (cars and bikes), **Country Flags** or **18+** (adult logos). A random image is shown.
+1. Press **Play** and choose a game: **Tech** (well-known tech brands and products), **Dev** (software engineering logos), **Motor** (cars and bikes), **Country Flags** or **18+** (adult logos). A random image is shown.
 2. Type the name of the brand, product or country in the box and press **Guess**.
 3. **Correct:** you score a point, and a new random image appears.
 4. **Wrong:** the game is over and the correct answer is revealed, with any alternative names it accepts.
@@ -28,4 +28,4 @@ The header shows `Score: X · Best: Y`: the correct answers in the current game 
 ## Images
 
 - Every image of a game is shown exactly once, in random order.
-- A game therefore lasts at most as many rounds as images it has: every image of the category, or the random few it draws when the category plays a sample. **Country Flags** keeps the best-known countries (about 60) and draws 30 of them each game; **Motor** keeps about 40 well-known brands whose logo does not spell the name, and draws 30.
+- A game therefore lasts at most as many rounds as images it has: every image of the category, or the random few it draws when the category plays a sample. **Tech** keeps about 80 well-known brands and **Dev** about 80 software engineering logos; **Country Flags** keeps the best-known countries (about 60); **Motor** keeps about 40 well-known brands. All four draw 30 each game, and the rule for every curated pool is that the logo does not spell the name.
